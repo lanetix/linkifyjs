@@ -73,6 +73,7 @@ function linkifyReactElement(element, opts, elementId = 0) {
 
 	React.Children.forEach(element.props.children, (child) => {
 		if (typeof child === 'string') {
+			elementId = elementId + 1;
 			children.push(...stringToElements(child, opts));
 		} else if (React.isValidElement(child)) {
 			if (typeof child.type === 'string'
