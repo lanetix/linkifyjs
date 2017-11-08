@@ -1,5 +1,5 @@
 {
-  "name": "linkifyjs",
+  "name": "@lanetix/linkifyjs",
   "version": "2.1.6",
   "description": "Intelligent link recognition, made easy",
   "repository": {
